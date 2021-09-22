@@ -66,40 +66,31 @@ body{
 
 /* MAIN */
 
-.main_container{
-    margin-top: 30px;
-}
-
-.col_left{
-    width: 6%;
-    height: 500px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: yellowgreen;
-}
-
-.col_right{
-    width: 6%;
-    height: 500px;
-    background-color: yellowgreen;
-    margin: auto;
-    
-}
-
-.col_center{
-    width: 88%;
-    height: 500px;
-    background-color: red;
+#site_main{
+    width: 80%;
     margin: auto;
 }
 
-.previews{
-    color: #7F7F7F;
-    font-size: 4rem;
+
+.container{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-top: 30px;
 }
 
-.row{
-    width: 100%;
+.immagine{
+    height: auto;
+    width: 300px;
 }
 
+.img_wrap{
+    position: relative;
+}
+
+.microphone{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+}
