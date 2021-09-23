@@ -11,6 +11,7 @@
 body{
     background-color: black;
     margin-right: 5px;
+
 }
 
 
@@ -22,6 +23,11 @@ body{
 
 
 /* Header */
+#site_header{
+    margin-bottom: 40px;
+    position: relative;
+}
+
 
 .header_container{
     width: 100%;
@@ -76,7 +82,6 @@ body{
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
-margin-top: 30px;
 }
 
 .immagine{
@@ -98,4 +103,28 @@ margin-top: 30px;
 
 .microphone{
     background-color: rgba(0, 0, 0, 0.486);
+}
+
+.sinistra{
+    position: absolute;
+    left: 68px;
+    top: 390px;
+    color: #7F7F7F;  
+}    
+
+.sx{
+    text-align: right;
+    font-size: 6rem;
+}
+
+.destra{
+    position: absolute;
+    right: 68px;
+    top: 390px;
+    color: #39BBFC;  
+}    
+
+.dx{
+    text-align: left;
+    font-size: 6rem;
 }
